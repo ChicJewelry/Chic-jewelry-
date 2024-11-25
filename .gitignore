@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijoux La Sotita - Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Bijoux La Sotita</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Bijoux La Sotita!</h2>
+            <p>Find the perfect accessory for any occasion.</p>
+            <a href="#shop" class="shop-now">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section id="categories" class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-container">
+            <div class="category">
+                <img src="https://via.placeholder.com/300x200" alt="Jewelry">
+                <h3>Jewelry</h3>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/300x200" alt="Accessories">
+                <h3>Accessories</h3>
+            </div>
+            <div class="category">
+                <img src="https://via.placeholder.com/300x200" alt="Handbags">
+                <h3>Handbags</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Bijoux La Sotita | All Rights Reserved</p>
+            <p>Follow us on social media for updates!</p>
+        </div>
+    </footer>
+</body>
+</html>
+CSS (styles.css)
+css
+Copy code
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #4b0082; /* Purple */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #d8a7f5; /* Light lilac */
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #d8a7f5; /* Light lilac */
+    color: #4b0082; /* Purple */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.shop-now {
+    background-color: #4b0082; /* Purple */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-now:hover {
+    background-color: #2e004d; /* Darker purple */
+}
+
+/* Product Categories Section */
+.categories {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4b0082;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #4b0082;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4b0082; /* Purple */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    color: #d8a7f5; /* Light lilac */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
