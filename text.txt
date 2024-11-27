@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chic Jewelry - Elegant and timeless jewelry collections">
+    <title>Chic Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Chic Jewelry</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Elegance in Every Piece</h2>
+            <p>Discover the timeless beauty of Chic Jewelry.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Chic Jewelry, we create timeless, high-quality jewelry pieces designed to elevate any look. Our collections blend elegance, modernity, and craftsmanship to bring you the best in fashion.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="contact-info">
+            <p>Contact us at info@chicjewelry.com</p>
+            <p>&copy; 2024 Chic Jewelry</p>
+        </div>
+    </footer>
+</body>
+</html>
+2. CSS (styles.css)
+This CSS will apply the lilac, white, and black color scheme, along with some basic styling for the layout.
+
+css
+Copy code
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e2a8e; /* Lilac color */
+    color: white;
+    padding: 1rem;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #f1e1fc; /* Light lilac on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #b38eeb; /* Lighter lilac */
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: white;
+}
+
+/* About Section */
+.about {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #3e2a8e; /* Darker lilac */
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.125rem;
+    color: #333;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
